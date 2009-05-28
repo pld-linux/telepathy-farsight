@@ -1,22 +1,22 @@
 Summary:	Telepathy client to handle media streaming channels
 Name:		telepathy-farsight
-Version:	0.0.6
+Version:	0.0.7
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://telepathy.freedesktop.org/releases/telepathy-farsight/%{name}-%{version}.tar.gz
-# Source0-md5:	f633c6ac7c99bf61aa6925df3a0a954d
+# Source0-md5:	882c9630ab28706d34d7d6d1060d43f0
 URL:		http://telepathy.freedesktop.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.9
 BuildRequires:	dbus-glib-devel >= 0.74
-BuildRequires:	farsight2-devel >= 0.0.3
+BuildRequires:	farsight2-devel >= 0.0.9
 BuildRequires:	gtk-doc >= 1.10
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRequires:	python-gstreamer-devel
 BuildRequires:	python-pygtk-devel >= 2:2.12.0
-BuildRequires:	telepathy-glib-devel >= 0.7.23
+BuildRequires:	telepathy-glib-devel >= 0.7.26
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
